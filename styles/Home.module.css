@@ -1,12 +1,6 @@
 .container {
   min-height: 100%;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  height: 100%;
   padding: 0;
   margin: 0;
 }
@@ -17,16 +11,160 @@
   
   padding: 0;
   margin-top: 0;
+}
+
+.headContainer{
+  width: 100%;
+  height: 55px;
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  background-color: rgba(80,80,80);;
+}
+
+.siteIdent{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+
+  margin-left: 30px;
+  float: left;
+}
+
+.identText{
+  color: white;
+  font-weight: 400;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.navList{
+  width: 330px;
+
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: row;
+}
+
+.navItem{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 50px;
+
+  list-style-type: none;
+}
+
+.societyDropdown{
+  visibility: hidden;
+  position: absolute;
+
+  background-color: rgba(120,120,120);
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+}
+
+.societyDropdownList{
+  width: 150px;
+  padding: 0;
+}
+
+.societyDropdownItem{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+  width: 100%;
+
+  border-bottom-style: solid;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+
+  list-style-type: none;
+}
+
+/* Landing Page Darkened Background*/
+
+.imageContainer{
+  width: 100%;
+  height: 50vh;
+
+  margin-top: 40px;
+
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+
+  background-image: url("../public/test.jpeg");
+  background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.textContainer{
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0,0,0,.5);
+
+  display: flex;
+  align-items: left;
   justify-content: center;
   flex-direction: column;
 }
 
 .title{
-  font-size: 2rem;
-  font-weight: 400;
-  color: #fff;
-  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin-left: 10px;
+  font-size: 42px;
+
+  margin-left: 80px;
+  width: 70%;
+}
+
+.scrollDown{
+  margin-left: 80px;
+}
+
+
+/* Generic Page */
+
+.pageTitleContainer{
+  width: 100%;
+  height: 40vh;
+
+  margin-top: 40px;
+}
+
+.pageTitleTextContainer{
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(232,232,232);
+
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pageTitle{
+  color: black;
+  font-weight: 500;
+  margin-left: 10px;
+  font-size: 42px;
+
+  margin-left: 60px;
+  width: 70%;
 }
