@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <div className="app">
       <NavBar/>
       <Component {...pageProps} />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
     
   )

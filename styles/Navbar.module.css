@@ -11,6 +11,16 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.identContainer{
+    width: 85%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -18,7 +28,6 @@
 .logoContainer{
     height: 100%;
     width: 330px;
-    margin-left: 45px;
 
     display: flex;
     align-items: center;
@@ -31,7 +40,6 @@
 
 .joinButton{
     float: right;
-    margin-right: 45px;
 
     width: 120px;
     height: 40px;
@@ -59,17 +67,15 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
 
     background-color: #1b649d;
 }
 
 .navLinks{
-    width: 100%;
+    width: 85%;
     height: 100%;
-
-    margin-left: 45px;
 
     display: flex;
     align-items: center;
@@ -100,17 +106,26 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
 
-    position: fixed;
-    bottom: 0;
+    /*position: fixed;
+    bottom: 0;*/
     background-color: #004377;
+}
+
+.footerContent{
+    width: 85%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .copyInfo{
     float: left;
-    margin-left: 45px;
 }
 
 .copytxt{
@@ -122,7 +137,6 @@
 
 .socialMedia{
     float: right;
-    margin-right: 45px;
 
     display: flex;
     align-items: center;
@@ -145,4 +159,13 @@
     border-radius: 100%;
 
     margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialLogo{
+    width: 25px;
+    height: 25px;
+
 }

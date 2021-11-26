@@ -11,13 +11,15 @@ class Navbar extends React.Component{
             <div className={styles.navBarContainer}>
                 {/*Society Logo Container*/}
                 <div className={styles.ident}>
-                    <div className={styles.logoContainer}>
-                        <img className={styles.logo} src="ts_kind_of_web_friendly.png" alt="logo" />
-                    </div>
+                    <div className={styles.identContainer}>
+                        <div className={styles.logoContainer}>
+                            <img className={styles.logo} src="ts_kind_of_web_friendly.png" alt="logo" />
+                        </div>
 
-                    <a href="#"><div className={styles.joinButton}>
-                        <p className={styles.joinText}>JOIN US</p>
-                    </div></a>
+                        <a href="#"><div className={styles.joinButton}>
+                            <p className={styles.joinText}>JOIN US</p>
+                        </div></a>
+                    </div>
                 </div>
 
                 {/* Link Section Part 1 */}
@@ -26,7 +28,7 @@ class Navbar extends React.Component{
                     <div className={styles.navLinks}>
                         <a className={styles.navLink} href="/">Home</a>
                         <a className={styles.navLink} href="/about">About Us</a>
-                        <a className={styles.navLink} href="#">Blog</a>
+                        <a className={styles.navLink} href="https://blog.bruneltech.net">Blog</a>
                         <a className={styles.navLink} href="#">Society</a>
 
                         <div className={styles.dropdown}>
